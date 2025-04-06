@@ -4695,7 +4695,7 @@ if Sea3 then
     end
 end
 local v66 = v16.Sea:AddToggle("ToggleTpAdvanced", {
-    Title = "Bay Đến Advanced Fruit Dealer",
+    Title = "Bay Đến NPC cửa hàng cao cấp",
     Description = "",
     Default = false
 });
@@ -6297,7 +6297,7 @@ end
 local v85 = v16.Setting:AddToggle("ToggleAutoT", {
     Title = "Bật Tộc V3",
     Description = "",
-    Default = false
+    Default = true
 });
 v85:OnChanged(function(v273)
     _G.AutoT = v273;
@@ -6315,7 +6315,7 @@ end);
 local v86 = v16.Setting:AddToggle("ToggleAutoY", {
     Title = "Bật Tộc V4",
     Description = "",
-    Default = false
+    Default = true
 });
 v86:OnChanged(function(v274)
     _G.AutoY = v274;
@@ -6773,7 +6773,7 @@ local v56 = v16.Player:AddSection("Khác");
 local v115 = v16.Player:AddToggle("ToggleNoClip", {
     Title = "Đi Xuyên Tường",
     Description = "",
-    Default = true
+    Default = false
 });
 v115:OnChanged(function(v312)
     _G.LOf = v312;
@@ -8705,7 +8705,7 @@ local v56 = v16.Misc:AddSection("Khác");
 local v151 = v16.Misc:AddToggle("ToggleRejoin", {
     Title = "Tham Gia Máy Chủ Lại",
     Description = "",
-    Default = true
+    Default = false
 });
 v151:OnChanged(function(v381)
     _G.AutoRejoin = v381;
@@ -9326,5 +9326,5 @@ end);
 v14:Notify({
     Title = "rubo_meme",
     Content = "Tải Xong",
-    Duration = 10
+    Duration = 1
 });
