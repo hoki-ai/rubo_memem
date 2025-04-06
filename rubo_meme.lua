@@ -1,7 +1,7 @@
--- discord.gg/tboyroblox
+-- xem bị pi tiên dí
 
 
-shared.LoaderTitle = "Đăng Ký Kênh rubo_meme";
+shared.LoaderTitle = "rubo_meme";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -6773,7 +6773,7 @@ local v56 = v16.Player:AddSection("Khác");
 local v115 = v16.Player:AddToggle("ToggleNoClip", {
     Title = "Đi Xuyên Tường",
     Description = "",
-    Default = false
+    Default = true
 });
 v115:OnChanged(function(v312)
     _G.LOf = v312;
@@ -9326,5 +9326,5 @@ end);
 v14:Notify({
     Title = "rubo_meme",
     Content = "Tải Xong",
-    Duration = 1
+    Duration = 5
 });
